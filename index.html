@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stylesheet.css">
 	<title>Render HTML</title>
 </head>
 <body>
 	<h1 id="titlepage">Wray Farias</h1>
-	<ul>
-		<li>Home</li>
-		<li>About Me </li>
-		<li>Blog</li>
-		<li>Contact Me</li>
+	<ul id="nav">
+		<li class="linav">Home</li>
+		<li class="linav">About Me </li>
+		<li class = "linav">Blog</li>
+		<li class = "linav">Contact Me</li>
 	</ul>
-	<h2>She is the slayer.</h2>
-	may 9th 2014 <br>
-	<img src="http://www.photographyblogger.net/wp-content/uploads/2013/12/2-cat-in-the-snow.jpg" width = 600 height = 300 alt="cat" <br>
-
 	<p>
+	<div id="slayer">
+	<h2 >She is the slayer.</h2>
+	<div id=date> may 9th 2014 </div> <br>
+	</div>
+	</p>
+	<div id="two">
+	<p id ="three"><img id="cat" src="http://www.photographyblogger.net/wp-content/uploads/2013/12/2-cat-in-the-snow.jpg" width = 100 height = 100 alt="cat">
+	 <br>
 	Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+	</div>
+	<div id="foosball">
+	<div id="fbhead">
 	<h2>Fooseball Tournament Results</h2> <br>
 	<p>April 20th 2014</p>
+	</div>
 	<p>
 	Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
 	</p>
@@ -32,27 +40,30 @@
 				<td>winning team</td>
 				<td>score</td>
 			</tr>
-			<tr>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-			</tr>
 		</thead>
+			<tr>
+				<td>intergalactic Potato</td>
+				<td>Beasti Poise</td>
+				<td>Intergalactic Potato</td>
+				<td>10-5</td>
+			</tr>
+			<tr>
+				<td>EE DEE M&Ms</td>
+				<td>Slumber Party</td>
+				<td>Slumber Party</td>
+				<td>10-7</td>
+			</tr>
+			<tr>
+				<td>Time Online Spent Idle</td>
+				<td>Star Fox Travel</td>
+				<td>Star Fox Travel</td>
+				<td>10-9</td>
+			</tr>
 	</table>
-	<p>Febuary 13th 2014</p>
+	</div>
+	<div id="todo">
+	<p id = "todohead">
+	To-Do-List <br>Febuary 13th 2014</p>
 	<ul>
 		<li>Go to the Grocery Store</li>
 		<ol>
@@ -70,8 +81,12 @@
 			<li>air dry</li>
 		</ul>
 	</ul>
-	<h2>Contact Me</h2>
-	<p>Enter your message below.  Be sure to fill in your email so I can respond to you.</p>
+	</div>
+	<div id = "fullcontact">
+	<div id="contact">
+	<p ><h2>Contact Me</h2>
+	Enter your message below.  Be sure to fill in your email so I can respond to you.</p>
+	</div>
 	<p> email:<input type="text" name="email">
 	</p>
 	<p>message:<textarea type='text' rows='10' cols='50'></textarea></p>
@@ -89,5 +104,6 @@
 	</select>
 	<br>
 	<button>submit</button>
+	</div>
 </body>
 </html>

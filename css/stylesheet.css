@@ -1,3 +1,83 @@
-h1 {
-	background-color: yellow;
+#titlepage {
+	text-align: center;
+}
+
+#slayer {
+	background-color: blue;
+	text-align: left;
+	color:white;
+	padding:15px;
+}
+
+#date {
+	color:black;
+
+}
+
+#two {
+	background-color:aqua;
+}
+
+
+#cat {
+	float: right;
+	width: 50px;
+	padding: 15px;
+	height: px;
+}
+
+
+#nav{
+	text-align: center;
+	border-bottom: 5px blue solid;
+}
+
+#nav:hover {
+	color:black;
+}
+
+.linav {
+	display: inline-block;
+	background-color:aqua;
+	color:blue;
+	padding: 10px;
+}
+
+#fbhead{
+	background-color: grey;
+	padding:15px;
+}
+
+#foosball {
+	border:1px black solid;
+	padding: 15px;
+}
+
+thead {
+	background-color:grey;
+	border-bottom: 1px solid black
+
+}
+
+table {
+	border: 1px black solid;
+	padding:5px;
+}
+
+#todohead {
+	background-color: grey;
+}
+
+#todo {
+	border: 1px solid black;
+}
+
+#contact {
+	background-color: grey;
+	padding:15px;
+}
+
+#fullcontact {
+	border: 1px black solid;
+	padding:15px;
 }
